@@ -1,0 +1,156 @@
+:root {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #1d232a;
+  background: #f4f6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.sub {
+  margin: 4px 0 20px;
+  color: #5b6670;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2e7ec;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #cbd4dc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+button.danger {
+  background: #dc2626;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: #5b6670;
+  font-size: 0.9rem;
+}
+
+.filters select {
+  flex: 0 0 160px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.item-role {
+  color: #37424b;
+  margin-bottom: 6px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 99px;
+  color: #1d232a;
+  background: #e2e7ec;
+}
+
+.badge-applied {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-interview {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-offer {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-rejected {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.notes {
+  font-size: 0.85rem;
+  color: #5b6670;
+  margin: 8px 0 0;
+}
+
+.muted {
+  color: #8a94a0;
+  font-size: 0.85rem;
+}
+
+.item-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.empty {
+  color: #5b6670;
+}
+
+.error {
+  color: #991b1b;
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
